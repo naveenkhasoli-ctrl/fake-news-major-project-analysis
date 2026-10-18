@@ -1,0 +1,12 @@
+{
+    "model_name": "Logistic_Regression_TFIDF",
+    "version": "1.0.0",
+    "created_at": "2026-10-18T10:28:50.818546",
+    "test_accuracy": 0.9884,
+    "test_f1": 0.9894,
+    "ngram_range": [
+        1,
+        2
+    ],
+    "max_features": 25000
+}

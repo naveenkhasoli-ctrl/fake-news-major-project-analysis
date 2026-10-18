@@ -1,0 +1,26 @@
+{
+    "generated_at": "2026-10-18T10:28:53.463592",
+    "dataset": {
+        "total_ingested": 44898,
+        "deduplicated": 39103,
+        "train_samples": 10500,
+        "val_samples": 2250,
+        "test_samples": 2250
+    },
+    "best_model": "Linear_SVC",
+    "best_test_accuracy": 0.996,
+    "best_test_f1": 0.9963,
+    "models_evaluated": [
+        "Dummy_Stratified",
+        "Multinomial_NB",
+        "Logistic_Regression",
+        "Linear_SVC",
+        "Random_Forest",
+        "Tuned_Logistic_Regression"
+    ],
+    "calibration_metrics": {
+        "raw_brier_score": 0.02045143619693111,
+        "calibrated_brier_score": 0.011753997504367807
+    },
+    "scientific_limitation_warning": "Classification is dataset-based, not factual verification."
+}
